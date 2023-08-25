@@ -17,8 +17,34 @@
   border: 2px solid rgb(186, 217, 101);
 }
 #alink {
+  background: orange;
+  padding: 12px 26px;
+
   text-decoration: none;
 }
 header {
   margin: 20px;
+}
+#ulist {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+}
+.back {
+  margin: 112px 330px;
+  background: orange;
+  padding: 12px 26px;
+  text-decoration: none;
+}
+.lid {
+  list-style: none;
+}
+.min {
+  margin-top: 100px;
+}
+.back a:active,
+a:hover {
+  color: aliceblue;
+  background-color: black;
+  cursor: pointer;
 }
